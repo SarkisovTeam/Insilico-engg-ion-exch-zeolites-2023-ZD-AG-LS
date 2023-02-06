@@ -8,7 +8,7 @@ This repository contains some of the pre and post-processing scripts and simulat
 
 You can find the publication here: 
 
-[In Silico Engineering of Ion-Exchanged Zeolites for High-Performance Carbon Capture in Psa Processes](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4306028)
+[In Silico Engineering of Ion-Exchanged Zeolites for High-Performance Carbon Capture in PSA Processes](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4306028)
 
 
 Note:
