@@ -1,0 +1,73 @@
+SimulationType      MC
+NumberOfCycles      100000
+NumberOfInitializationCycles 50000
+PrintEvery              100
+PrintPropertiesEvery    100
+RestartFile             yes
+
+# Restart and crash-recovery
+ContinueAfterCrash             no 
+WriteBinaryRestartFileEvery    100   
+
+
+#Forcefield             43_K0
+Forcefield             Local
+CutOffVDW             12.0
+ChargeMethod           Ewald   #CoulombShifted
+CutOffChargeCharge     12.0
+EwaldPrecision         1e-6
+
+Framework 0
+FrameworkName  LTA_my
+UseChargesFromCIFFile   yes
+UnitCells 1 1 1
+HeliumVoidFraction 0.2
+ExternalTemperature 298.15
+ExternalPressure  100000
+
+#Grids
+#NumberOfGrids 2
+#GridTypes C_co2 O_co2
+#SpacingVDWGrid 0.1
+#SpacingCoulombGrid  0.1
+#UseTabularGrid yes
+
+# Compute System Properties
+ComputeRDF no
+WriteRDFEvery 100
+RDFHistogramSize 120
+RDFRange 24.0
+
+# Movies
+Movies yes
+WriteMoviesEvery 100
+            
+Component 0 MoleculeName                    K  
+            MoleculeDefinition              K   
+            BlockPockets              yes
+            BlockPocketsFilename      LTA
+            TranslationProbability          1.0
+            RandomTranslationProbability          1.0
+            ExtraFrameworkMolecule          yes
+            CreateNumberOfMolecules         0
+
+Component 1 MoleculeName                    Na  
+            MoleculeDefinition              Na   
+            BlockPockets              yes
+            BlockPocketsFilename      LTA
+            TranslationProbability          1.0
+            RandomTranslationProbability          1.0
+            ExtraFrameworkMolecule          yes
+            CreateNumberOfMolecules         0
+
+Component 2 MoleculeName             CO2
+            MoleculeDefinition        CO2
+            FugacityCoefficient       1.0
+            BlockPockets              yes
+            BlockPocketsFilename      LTA
+            TranslationProbability    1.0
+            RotationProbability       1.0
+            SwapProbability           1.0
+            RandomTranslationProbability          1.0
+            ExtraFrameworkMolecule    no
+            CreateNumberOfMolecules   0

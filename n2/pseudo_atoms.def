@@ -1,0 +1,18 @@
+#number of pseudo atoms
+15
+#type      print   as    chem  oxidation   mass      charge   polarization B-factor  radii  connectivity anisotropic anisotropic-type   tinker-type
+UNIT        no      H     H        -        1.0       1.0         0.0         1.0     1.0        0            0           relative           0 
+He          yes     He    He       0        4.003     0.0         0.0         1.0     1.0        0            0           absolute           0
+N_n2        yes     N     N        0       14.00674  -0.40484     0.0         1.0     0.7        0            0           absolute           0
+N_com       no      N     N        0        0.0       0.80968     0.0         1.0     0.7        0            0           absolute           0
+C_ch4     yes     C     C        0          12.107   -0.24         0.0         1.0     1.0        0            0           absolute           0
+H_ch4    yes      H    H       0         1.00784   0.06          0.0         1.0     1.0        0            0           absolute           0
+Ar          yes     Ar    Ar       0       39.948     0.0         0.0         1.0     1.0        0            0           absolute           0
+K          yes     K    K       0       39.0983   0.9094         0.0         1.0     1.38        0            0           absolute           0
+Na          yes     Na    Na       0       22.98977   0.9094         0.0         1.0     1.0        0            0           absolute           0
+Al          yes     Al    Al       0       26.981539  1.7906        0.0         1.0     1.18       4            0           absolute           0
+Si          yes     Si    Si       0       28.0855    1.8708        0.0         1.0     1.18       4            0           absolute           0
+Oal         yes     O     O        0       15.9994   -1.1427         0.0         1.0     0.5        2            0           absolute           0
+Osi         yes     O     O        0       15.9994   -0.9354       0.0         1.0     0.5        2            0           absolute           0
+C_co2     yes     C     C        0          12.107   0.6512         0.0         1.0     0.72        0            0           absolute           0
+O_co2     yes     O     O        0       15.9994   -0.3256       0.0         1.0     0.68        0            0           absolute           0

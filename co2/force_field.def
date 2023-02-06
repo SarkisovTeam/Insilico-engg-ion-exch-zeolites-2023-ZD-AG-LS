@@ -1,0 +1,80 @@
+# rules to overwrite
+34
+# pair       truncated/truncated  tailcorrections
+Oal  K           truncated            yes
+Osi  K           truncated            yes
+Oal  Na           truncated            yes
+Osi  Na           truncated            yes
+Oal  C_ch4      truncated            yes
+Osi  C_ch4      truncated            yes
+Oal  H_ch4      truncated            yes
+Osi  H_ch4      truncated            yes
+C_ch4  K        truncated            yes
+C_ch4  Na        truncated            yes
+C_ch4  Al        truncated            yes
+C_ch4  Si        truncated            yes
+H_ch4  K        truncated            yes
+H_ch4  Na        truncated            yes
+H_ch4  Al        truncated            yes
+H_ch4  Si        truncated            yes
+Oal  N_n2         truncated            yes
+Osi  N_n2         truncated            yes
+N_n2  K        truncated            yes
+N_n2  Na        truncated            yes
+N_n2  Al        truncated            yes
+N_n2  Si        truncated            yes
+Oal  C_co2      truncated            yes
+Osi  C_co2      truncated            yes
+Oal  O_co2      truncated            yes
+Osi  O_co2      truncated            yes
+C_co2  K        truncated            yes
+C_co2  Na        truncated            yes
+C_co2  Al        truncated            yes
+C_co2  Si        truncated            yes
+O_co2  K        truncated            yes
+O_co2  Na        truncated            yes
+O_co2  Al        truncated            yes
+O_co2  Si        truncated            yes
+
+# number of defined interactions
+34
+# type type2 interaction
+Oal  K       Buckingham2  6.967E7  3.475   26.17E5 1.2722
+Osi  K       Buckingham2 6.967E7  3.475   26.17E5 1.2722
+Oal  Na       Buckingham2  5.581E7  3.985   9.17E5 1.1
+Osi  Na       Buckingham2  5.581E7  3.985   9.17E5 1.1
+Oal  C_ch4      lennard-jones  20.6  3.378
+Osi  C_ch4      lennard-jones  20.6  3.378
+Oal  H_ch4      lennard-jones  16.7  2.833
+Osi  H_ch4      lennard-jones  16.7  2.833
+C_ch4  K       lennard-jones  72.4 3.277
+C_ch4  Na       lennard-jones  158.3  2.731
+C_ch4  Al        lennard-jones  76.4  3.252
+C_ch4  Si        lennard-jones  35.1  3.830
+H_ch4  K       lennard-jones  55.7 2.774
+H_ch4  Na       lennard-jones  140.7  2.256
+H_ch4  Al       lennard-jones  55.7  2.777
+H_ch4  Si       lennard-jones  25.0  3.285
+Oal  N_n2     lennard-jones  25.8  3.213
+Osi  N_n2     lennard-jones  25.8  3.213        
+N_n2  K      lennard-jones  153.2 3.068
+N_n2  Na      lennard-jones  117.2  2.567
+N_n2  Al        lennard-jones  55.4  3.067
+N_n2  Si       lennard-jones  43.5  3.652
+Oal  C_co2      lennard-jones  29.2  3.189
+Osi  C_co2       lennard-jones  29.2  3.189
+Oal  O_co2       lennard-jones  23.5  3.063
+Osi  O_co2       lennard-jones  23.5  3.063
+C_co2  K        lennard-jones  174.1 2.993
+C_co2  Na        lennard-jones  103.2  2.659
+C_co2  Al         lennard-jones  49.8  3.167
+C_co2  Si         lennard-jones  50.0  3.616
+O_co2  K        lennard-jones  139 2.881
+O_co2  Na        lennard-jones  84.6  2.547
+O_co2  Al         lennard-jones  39.1  3.054
+O_co2  Si         lennard-jones  39.1  3.490
+# mixing rules to overwrite
+0
+
+# Reference: 
+# Force field parameters from Boulfelfel et al..

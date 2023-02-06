@@ -1,0 +1,321 @@
+Cell info:
+========================================================================
+number-of-unit-cells: 1 1 1
+unit-cell-vector-a:    24.015400000000     0.000000000000     0.000000000000
+unit-cell-vector-b:     0.000000000000    24.015400000000     0.000000000000
+unit-cell-vector-c:     0.000000000000     0.000000000000    24.015400000000
+
+cell-vector-a:    24.015400000000     0.000000000000     0.000000000000
+cell-vector-b:     0.000000000000    24.015400000000     0.000000000000
+cell-vector-c:     0.000000000000     0.000000000000    24.015400000000
+
+cell-lengths:    24.015400000000    24.015400000000    24.015400000000
+cell-angles:    90.000000000000    90.000000000000    90.000000000000
+
+
+Maximum changes for MC-moves:
+========================================================================
+Maximum-volume-change: 0.000500
+Maximum-Gibbs-volume-change: 0.000500
+Maximum-box-shape-change: 0.100000 0.100000 0.100000, 0.100000 0.100000 0.100000, 0.100000 0.100000 0.100000
+
+
+Acceptance targets for MC-moves:
+========================================================================
+Target-volume-change: 0.500000
+Target-box-shape-change: 0.500000
+Target-Gibbs-volume-change: 0.500000
+
+
+Components: 2 (Adsorbates 0, Cations 43)
+========================================================================
+Component 0 (K)
+	Fractional-molecule-id component 0: -1
+	Lambda-factors component 0:  0.000000
+	Number-of-biasing-factors component 0: 21
+	Biasing-factors component 0:  0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+	Maximum-CF-Lambda-change component 0: 0.500000
+	Maximum-CBCF-Lambda-change component 0: 0.500000
+
+	Maximum-translation-change component 0: 0.010000,0.010000,0.010000
+	Maximum-translation-in-plane-change component 0: 0.000000,0.000000,0.000000
+	Maximum-rotation-change component 0: 0.017453 0.017453 0.017453
+Component 1 (Na)
+	Fractional-molecule-id component 1: -1
+	Lambda-factors component 1:  0.000000
+	Number-of-biasing-factors component 1: 21
+	Biasing-factors component 1:  0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+	Maximum-CF-Lambda-change component 1: 0.500000
+	Maximum-CBCF-Lambda-change component 1: 0.500000
+
+	Maximum-translation-change component 1: 0.292746,0.296181,0.308465
+	Maximum-translation-in-plane-change component 1: 0.000000,0.000000,0.000000
+	Maximum-rotation-change component 1: 0.017453 0.017453 0.017453
+
+Reactions: 0
+
+Component: 0     Cation       0 molecules of K
+------------------------------------------------------------------------
+
+Component: 1     Cation       43 molecules of Na
+------------------------------------------------------------------------
+Cation-atom-position: 0 0    59.632687035585     5.305481620273     7.176806692503
+Cation-atom-position: 1 0     9.837908042918   -21.648183596326    -9.985747909488
+Cation-atom-position: 2 0    -9.697433087289    21.317371749059     2.852704224816
+Cation-atom-position: 3 0   -16.812207624173    -6.038765947192    36.076459818700
+Cation-atom-position: 4 0     0.084253824033    78.820474410099    19.163187364956
+Cation-atom-position: 5 0     5.007943421934     6.854813188321    -0.131399662591
+Cation-atom-position: 6 0   -30.655020340432     7.107476738017    12.252848747781
+Cation-atom-position: 7 0    26.267998713267    -2.584234899496    26.619794454636
+Cation-atom-position: 8 0    26.246650818274    26.284255812469    21.750249932933
+Cation-atom-position: 9 0    -2.477150710417    -9.322541377289    69.755269976078
+Cation-atom-position: 10 0     9.747049132629   -26.530254377712     2.510489089950
+Cation-atom-position: 11 0     6.750720846134   -16.885053420140    12.422165447186
+Cation-atom-position: 12 0    21.597538101388    21.457324771364     2.463265314812
+Cation-atom-position: 13 0   -19.073297639031     0.067359308206    17.272316030515
+Cation-atom-position: 14 0    21.416186853947    14.157400606034    14.602334320642
+Cation-atom-position: 15 0    21.330327840606    14.685290405656    57.741469894363
+Cation-atom-position: 16 0     0.374063991209    -6.580878916082     7.129026506945
+Cation-atom-position: 17 0    21.554029260603    26.476921476731    50.435073844561
+Cation-atom-position: 18 0    -2.373104752762    -9.693547793907     2.399513228745
+Cation-atom-position: 19 0    67.156218029630    83.696634181297    17.170025628517
+Cation-atom-position: 20 0    38.651425046218    21.412961631560    21.630882337791
+Cation-atom-position: 21 0     6.647774026652   -30.937162671739    24.100126486537
+Cation-atom-position: 22 0    21.358059321878    45.534206488478    14.180916872103
+Cation-atom-position: 23 0    -5.377317269605    -4.878070382369    35.721845296931
+Cation-atom-position: 24 0   -28.866100740698    18.497360045067    47.953043899842
+Cation-atom-position: 25 0    14.500253235739    62.515810116938    30.158302021487
+Cation-atom-position: 26 0    26.366008299382   -29.949731337665    21.530342464669
+Cation-atom-position: 27 0     5.614031156989    11.607974967246    -7.212491718945
+Cation-atom-position: 28 0    14.351069661996     9.646164320899     9.611418275644
+Cation-atom-position: 29 0    -2.622044527373    50.600464003811    -9.646875586583
+Cation-atom-position: 30 0    26.496823882900     2.455036480176    -9.808328066529
+Cation-atom-position: 31 0     9.574330330268    14.450720790537     9.714933951953
+Cation-atom-position: 32 0    14.957994915571     2.774915122459    21.459798622294
+Cation-atom-position: 33 0     9.727822845823   -33.647767616739   -45.472597585602
+Cation-atom-position: 34 0    57.373260867057     9.570143466280     9.386353342397
+Cation-atom-position: 35 0    14.463890481927    -2.720115332886    38.406487108515
+Cation-atom-position: 36 0    -9.446906984374    26.720573838236    50.689179037135
+Cation-atom-position: 37 0     9.490610628314    26.445813735513     2.603201118665
+Cation-atom-position: 38 0    -2.452939494616   -38.373918604687   -21.455678898818
+Cation-atom-position: 39 0    19.026047368796     6.991260515760    23.875763440748
+Cation-atom-position: 40 0    48.263449973745   -19.084767931831     5.324760249362
+Cation-atom-position: 41 0    50.662787258093   -14.463841832864     2.575255858247
+Cation-atom-position: 42 0   -14.903683459719    14.134691365259    21.099591266666
+Cation-atom-velocity: 0 0    -2.976680551055    -3.763119921069     2.956825245278
+Cation-atom-velocity: 1 0     5.831212713430    -2.992015861878     3.008116438998
+Cation-atom-velocity: 2 0    -5.207803994090     3.205094893507    -0.422705683982
+Cation-atom-velocity: 3 0     1.682461899609     3.788313140943     0.950470491524
+Cation-atom-velocity: 4 0     2.654793844188     6.803631084137    -0.742708352747
+Cation-atom-velocity: 5 0     1.356471917067     0.483539466277    -9.404149814381
+Cation-atom-velocity: 6 0    -0.057155439104     1.271305480453    -5.586218117480
+Cation-atom-velocity: 7 0     2.152732822723    -3.663938095480     6.112707890914
+Cation-atom-velocity: 8 0     3.211978949259    -7.033292892576    -1.273415301384
+Cation-atom-velocity: 9 0    -2.184242849962    -5.374775306654     2.860011012412
+Cation-atom-velocity: 10 0    -1.658355670999     7.773701221685     3.576804805041
+Cation-atom-velocity: 11 0     2.269038723148    -2.680330898233   -11.352060638538
+Cation-atom-velocity: 12 0     5.210856610639     3.222987578072    -3.159556001867
+Cation-atom-velocity: 13 0     2.040182081938    -4.901267243815     0.329051364158
+Cation-atom-velocity: 14 0     1.451013422191    -1.102977948481     1.441805047638
+Cation-atom-velocity: 15 0    -2.231953666519    -1.370716430377     1.511338777471
+Cation-atom-velocity: 16 0    -6.999582304736    -0.558653654558    -0.954575561222
+Cation-atom-velocity: 17 0     2.961255095354    -1.618285163542     4.113593116844
+Cation-atom-velocity: 18 0     2.269267559436     2.042606881787    -0.718810166768
+Cation-atom-velocity: 19 0     3.914453455060     0.228046488405     9.795657977111
+Cation-atom-velocity: 20 0    -2.425107828967    -2.130509084940    -3.733361454032
+Cation-atom-velocity: 21 0    -6.916545915055     5.698788679355     3.075642730959
+Cation-atom-velocity: 22 0     3.719255448268    -4.050383547419    11.651000831986
+Cation-atom-velocity: 23 0     1.575168988223    -2.216537267591    -4.211511818988
+Cation-atom-velocity: 24 0    -2.819854960484     1.648258952736    -0.546828862555
+Cation-atom-velocity: 25 0     8.159923795205     5.177530282392    -3.441061084652
+Cation-atom-velocity: 26 0     2.513687899787    -8.760718581868    -1.667004943722
+Cation-atom-velocity: 27 0     4.886402209080    -1.938397446065     3.976355230562
+Cation-atom-velocity: 28 0    -3.639777294739    -5.337534649631    -8.219933290260
+Cation-atom-velocity: 29 0    -3.539485819197    -1.460232293572    -9.603530883846
+Cation-atom-velocity: 30 0   -13.535885435816    -3.791443372497     4.561570695169
+Cation-atom-velocity: 31 0   -12.309699222908    -5.042066752288     2.217533190142
+Cation-atom-velocity: 32 0    -7.103984507541     0.303465491089    -6.597721761512
+Cation-atom-velocity: 33 0     6.811336800000     6.555880311180    -0.038428209697
+Cation-atom-velocity: 34 0     1.334140464669    -6.469455490527    -2.164986580322
+Cation-atom-velocity: 35 0    -3.027999653677     3.976694954671     0.318271510032
+Cation-atom-velocity: 36 0    -2.956468687041    -9.011220485137     2.203580046501
+Cation-atom-velocity: 37 0     3.437463986373     5.883563453461    -5.080296329575
+Cation-atom-velocity: 38 0     0.890271221448    -4.228409481458    -3.915655146341
+Cation-atom-velocity: 39 0     4.719824178367    -3.048257202938     2.156286551147
+Cation-atom-velocity: 40 0     1.406046524008    -6.362460906186    -3.918934233031
+Cation-atom-velocity: 41 0    -0.806338363985    -2.688373204597     2.506711222607
+Cation-atom-velocity: 42 0    -5.746406391871    -5.050641833030   -13.745497841892
+Cation-atom-force:    0 0  1686.667203924961  2984.876433296291 -4805.914135819081
+Cation-atom-force:    1 0 -5190.457748379643 -2368.846736951106  1425.590740713360
+Cation-atom-force:    2 0  2017.866611046111 -6129.905977482558 -4254.364933222628
+Cation-atom-force:    3 0 -5462.512313134935 -2222.805563056247  2007.511348311644
+Cation-atom-force:    4 0  -828.005381807510 -2289.010583597621  -113.217599391288
+Cation-atom-force:    5 0  -292.206459074137 -1326.894062636613 -1287.807752008678
+Cation-atom-force:    6 0 -3238.332543644068  1401.937720624035  -550.507965478894
+Cation-atom-force:    7 0  -305.543865139259  -962.512727498994 -1811.343548662951
+Cation-atom-force:    8 0  -666.412757073914  2704.804454962110  1315.726737062412
+Cation-atom-force:    9 0 -3056.579154029197 -4706.951159015471 -2550.107413221163
+Cation-atom-force:    10 0  -455.132496716538 -3796.083167878369  -134.299706009925
+Cation-atom-force:    11 0  -132.451126107446   356.606137558351 -1161.831908293622
+Cation-atom-force:    12 0   -32.973721232943  5014.182278855157   929.366126579677
+Cation-atom-force:    13 0  1632.224638479682 -3104.764122662744  -607.265114452006
+Cation-atom-force:    14 0  2038.205927550172  5108.949368973918 -3741.408813568339
+Cation-atom-force:    15 0  2406.431462478859   847.529715875736  -640.741781250430
+Cation-atom-force:    16 0 -1042.248169434464 -2808.663467486043  -353.947558903265
+Cation-atom-force:    17 0  1833.344257287146 -2326.691324539963 -1397.513003273742
+Cation-atom-force:    18 0   362.700437133568  1833.897228037681  1154.570203618181
+Cation-atom-force:    19 0 -3298.738315939548  -617.136022041771  4311.078798027571
+Cation-atom-force:    20 0  1009.283113336731 -1352.406455952851   952.668485809507
+Cation-atom-force:    21 0  3158.698278308082 -2605.907752787899  -227.449594604245
+Cation-atom-force:    22 0  4837.936933119548 -4457.240508677393  3562.349748920276
+Cation-atom-force:    23 0   729.146701158214 -1167.032070854282   -41.713672348088
+Cation-atom-force:    24 0 -2034.828569303947  1819.739051405212 -1038.244904950728
+Cation-atom-force:    25 0 -4061.327082449402 -3545.820845249227 -1226.481490507326
+Cation-atom-force:    26 0 -2674.355439366390   162.461511944708  1246.836387417579
+Cation-atom-force:    27 0 -1505.347960004198  1903.830603910052  1201.438898974552
+Cation-atom-force:    28 0   376.869483174344  2473.647838600338   -59.239227642202
+Cation-atom-force:    29 0   418.783820211668  -405.478792330172  3418.614856539421
+Cation-atom-force:    30 0   325.713650768952  -554.426379778744  2959.258275836131
+Cation-atom-force:    31 0  4131.110902949268  -418.268699552368 -4630.328858241181
+Cation-atom-force:    32 0 -1324.047967258452   627.974077844248  2413.190996802532
+Cation-atom-force:    33 0 -3238.794482269934   145.853009838999 -1164.430371416517
+Cation-atom-force:    34 0  3749.078940392692  1488.366963043113  1394.884084134023
+Cation-atom-force:    35 0  3087.968833498971  3661.669890335308 -1279.974515697468
+Cation-atom-force:    36 0 -2023.525415205920   805.589709123863  -500.142083600465
+Cation-atom-force:    37 0 -2383.554025184576  1968.441721594207 -3180.111783510658
+Cation-atom-force:    38 0  -712.711061511940 -2369.387287794776 -3664.401492564581
+Cation-atom-force:    39 0 -4067.572373936354 -5620.878831604042 -2198.156694132625
+Cation-atom-force:    40 0   113.786243798993 -2355.262050681849 -2226.299937250193
+Cation-atom-force:    41 0 -2272.966117840330  1497.881442764360 -1039.389852991344
+Cation-atom-force:    42 0  2068.995331873524  3891.648169953246  1005.285918783659
+Cation-atom-charge:   0 0     0.909400000000
+Cation-atom-charge:   1 0     0.909400000000
+Cation-atom-charge:   2 0     0.909400000000
+Cation-atom-charge:   3 0     0.909400000000
+Cation-atom-charge:   4 0     0.909400000000
+Cation-atom-charge:   5 0     0.909400000000
+Cation-atom-charge:   6 0     0.909400000000
+Cation-atom-charge:   7 0     0.909400000000
+Cation-atom-charge:   8 0     0.909400000000
+Cation-atom-charge:   9 0     0.909400000000
+Cation-atom-charge:   10 0     0.909400000000
+Cation-atom-charge:   11 0     0.909400000000
+Cation-atom-charge:   12 0     0.909400000000
+Cation-atom-charge:   13 0     0.909400000000
+Cation-atom-charge:   14 0     0.909400000000
+Cation-atom-charge:   15 0     0.909400000000
+Cation-atom-charge:   16 0     0.909400000000
+Cation-atom-charge:   17 0     0.909400000000
+Cation-atom-charge:   18 0     0.909400000000
+Cation-atom-charge:   19 0     0.909400000000
+Cation-atom-charge:   20 0     0.909400000000
+Cation-atom-charge:   21 0     0.909400000000
+Cation-atom-charge:   22 0     0.909400000000
+Cation-atom-charge:   23 0     0.909400000000
+Cation-atom-charge:   24 0     0.909400000000
+Cation-atom-charge:   25 0     0.909400000000
+Cation-atom-charge:   26 0     0.909400000000
+Cation-atom-charge:   27 0     0.909400000000
+Cation-atom-charge:   28 0     0.909400000000
+Cation-atom-charge:   29 0     0.909400000000
+Cation-atom-charge:   30 0     0.909400000000
+Cation-atom-charge:   31 0     0.909400000000
+Cation-atom-charge:   32 0     0.909400000000
+Cation-atom-charge:   33 0     0.909400000000
+Cation-atom-charge:   34 0     0.909400000000
+Cation-atom-charge:   35 0     0.909400000000
+Cation-atom-charge:   36 0     0.909400000000
+Cation-atom-charge:   37 0     0.909400000000
+Cation-atom-charge:   38 0     0.909400000000
+Cation-atom-charge:   39 0     0.909400000000
+Cation-atom-charge:   40 0     0.909400000000
+Cation-atom-charge:   41 0     0.909400000000
+Cation-atom-charge:   42 0     0.909400000000
+Cation-atom-scaling:  0 0     1.000000000000
+Cation-atom-scaling:  1 0     1.000000000000
+Cation-atom-scaling:  2 0     1.000000000000
+Cation-atom-scaling:  3 0     1.000000000000
+Cation-atom-scaling:  4 0     1.000000000000
+Cation-atom-scaling:  5 0     1.000000000000
+Cation-atom-scaling:  6 0     1.000000000000
+Cation-atom-scaling:  7 0     1.000000000000
+Cation-atom-scaling:  8 0     1.000000000000
+Cation-atom-scaling:  9 0     1.000000000000
+Cation-atom-scaling:  10 0     1.000000000000
+Cation-atom-scaling:  11 0     1.000000000000
+Cation-atom-scaling:  12 0     1.000000000000
+Cation-atom-scaling:  13 0     1.000000000000
+Cation-atom-scaling:  14 0     1.000000000000
+Cation-atom-scaling:  15 0     1.000000000000
+Cation-atom-scaling:  16 0     1.000000000000
+Cation-atom-scaling:  17 0     1.000000000000
+Cation-atom-scaling:  18 0     1.000000000000
+Cation-atom-scaling:  19 0     1.000000000000
+Cation-atom-scaling:  20 0     1.000000000000
+Cation-atom-scaling:  21 0     1.000000000000
+Cation-atom-scaling:  22 0     1.000000000000
+Cation-atom-scaling:  23 0     1.000000000000
+Cation-atom-scaling:  24 0     1.000000000000
+Cation-atom-scaling:  25 0     1.000000000000
+Cation-atom-scaling:  26 0     1.000000000000
+Cation-atom-scaling:  27 0     1.000000000000
+Cation-atom-scaling:  28 0     1.000000000000
+Cation-atom-scaling:  29 0     1.000000000000
+Cation-atom-scaling:  30 0     1.000000000000
+Cation-atom-scaling:  31 0     1.000000000000
+Cation-atom-scaling:  32 0     1.000000000000
+Cation-atom-scaling:  33 0     1.000000000000
+Cation-atom-scaling:  34 0     1.000000000000
+Cation-atom-scaling:  35 0     1.000000000000
+Cation-atom-scaling:  36 0     1.000000000000
+Cation-atom-scaling:  37 0     1.000000000000
+Cation-atom-scaling:  38 0     1.000000000000
+Cation-atom-scaling:  39 0     1.000000000000
+Cation-atom-scaling:  40 0     1.000000000000
+Cation-atom-scaling:  41 0     1.000000000000
+Cation-atom-scaling:  42 0     1.000000000000
+Cation-atom-fixed:    0 0       0 0 0
+Cation-atom-fixed:    1 0       0 0 0
+Cation-atom-fixed:    2 0       0 0 0
+Cation-atom-fixed:    3 0       0 0 0
+Cation-atom-fixed:    4 0       0 0 0
+Cation-atom-fixed:    5 0       0 0 0
+Cation-atom-fixed:    6 0       0 0 0
+Cation-atom-fixed:    7 0       0 0 0
+Cation-atom-fixed:    8 0       0 0 0
+Cation-atom-fixed:    9 0       0 0 0
+Cation-atom-fixed:    10 0       0 0 0
+Cation-atom-fixed:    11 0       0 0 0
+Cation-atom-fixed:    12 0       0 0 0
+Cation-atom-fixed:    13 0       0 0 0
+Cation-atom-fixed:    14 0       0 0 0
+Cation-atom-fixed:    15 0       0 0 0
+Cation-atom-fixed:    16 0       0 0 0
+Cation-atom-fixed:    17 0       0 0 0
+Cation-atom-fixed:    18 0       0 0 0
+Cation-atom-fixed:    19 0       0 0 0
+Cation-atom-fixed:    20 0       0 0 0
+Cation-atom-fixed:    21 0       0 0 0
+Cation-atom-fixed:    22 0       0 0 0
+Cation-atom-fixed:    23 0       0 0 0
+Cation-atom-fixed:    24 0       0 0 0
+Cation-atom-fixed:    25 0       0 0 0
+Cation-atom-fixed:    26 0       0 0 0
+Cation-atom-fixed:    27 0       0 0 0
+Cation-atom-fixed:    28 0       0 0 0
+Cation-atom-fixed:    29 0       0 0 0
+Cation-atom-fixed:    30 0       0 0 0
+Cation-atom-fixed:    31 0       0 0 0
+Cation-atom-fixed:    32 0       0 0 0
+Cation-atom-fixed:    33 0       0 0 0
+Cation-atom-fixed:    34 0       0 0 0
+Cation-atom-fixed:    35 0       0 0 0
+Cation-atom-fixed:    36 0       0 0 0
+Cation-atom-fixed:    37 0       0 0 0
+Cation-atom-fixed:    38 0       0 0 0
+Cation-atom-fixed:    39 0       0 0 0
+Cation-atom-fixed:    40 0       0 0 0
+Cation-atom-fixed:    41 0       0 0 0
+Cation-atom-fixed:    42 0       0 0 0
+
+
