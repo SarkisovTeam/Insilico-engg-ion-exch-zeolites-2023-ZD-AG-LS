@@ -1,0 +1,26 @@
+# general rule for shifted vs truncated
+truncated
+# general rule tailcorrections
+yes
+# number of defined interactions
+8
+# type interaction
+He         LENNARD_JONES     10.9     2.64
+Ar         LENNARD_JONES    119.8     3.4
+C_ch4    LENNARD_JONES    58.0  3.825
+H_ch4    LENNARD_JONES    7.55   2.400
+N_n2       LENNARD_JONES     36.4     3.32 
+N_com      NONE
+C_co2     LENNARD_JONES     28.129  2.757
+O_co2     LENNARD_JONES    80.507  3.033
+# general mixing rule for Lennard-Jones
+Lorentz-Berthelot
+
+# Reference:
+# Ar parameters from Adv. Mater. Interfaces 2020, 7, 2000184.
+# He parameters from TraPPE. 
+# CH4 from Gomes et al.(2015)
+# N2 parameters from García-Pérez et al, Adsorption (13), 2007, 469–476.
+# CH4 and Na parameters from Calero et al, JACS, 2004, 126, 11377-11386.
+#co2 EMP-2 model
+

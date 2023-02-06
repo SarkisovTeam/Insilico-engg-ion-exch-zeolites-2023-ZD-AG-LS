@@ -1,0 +1,152 @@
+SimulationType      MC
+NumberOfCycles      600000
+NumberOfInitializationCycles 0
+PrintEvery              1000
+PrintPropertiesEvery    1000
+RestartFile           no
+
+# Restart and crash-recovery
+ContinueAfterCrash             no 
+WriteBinaryRestartFileEvery    1000
+
+
+Forcefield             local
+CutOffVDW             12.0
+ChargeMethod           Ewald   #CoulombShifted
+CutOffChargeCharge     12.0
+EwaldPrecision         1e-6
+
+Framework 0
+FrameworkName  LTA_my
+UseChargesFromCIFFile   yes
+UnitCells 1 1 1
+HeliumVoidFraction 0.2
+ExternalTemperature 303
+
+Movies yes
+WriteMoviesEvery 1000
+
+ParallelTemperingProbability 0.01
+
+Framework 1
+FrameworkName  LTA_my
+UseChargesFromCIFFile   yes
+UnitCells 1 1 1
+HeliumVoidFraction 0.2
+ExternalTemperature 390
+
+Movies yes
+WriteMoviesEvery 1000
+
+ParallelTemperingProbability 0.01
+
+Framework 2
+FrameworkName  LTA_my
+UseChargesFromCIFFile   yes
+UnitCells 1 1 1
+HeliumVoidFraction 0.2
+ExternalTemperature 507
+
+Movies yes
+WriteMoviesEvery 1000
+
+ParallelTemperingProbability 0.01
+
+
+Framework 3
+FrameworkName  LTA_my
+UseChargesFromCIFFile   yes
+UnitCells 1 1 1
+HeliumVoidFraction 0.2
+ExternalTemperature 659
+
+Movies yes
+WriteMoviesEvery 1000
+
+ParallelTemperingProbability 0.01
+
+Framework 4
+FrameworkName  LTA_my
+UseChargesFromCIFFile   yes
+UnitCells 1 1 1
+HeliumVoidFraction 0.2
+ExternalTemperature 857
+
+Movies yes
+WriteMoviesEvery 1000
+
+ParallelTemperingProbability 0.01
+
+Framework 5
+FrameworkName  LTA_my
+UseChargesFromCIFFile   yes
+UnitCells 1 1 1
+HeliumVoidFraction 0.2
+ExternalTemperature 1114
+
+Movies yes
+WriteMoviesEvery 1000
+
+ParallelTemperingProbability 0.01
+
+Framework 6
+FrameworkName  LTA_my
+UseChargesFromCIFFile   yes
+UnitCells 1 1 1
+HeliumVoidFraction 0.2
+ExternalTemperature 1448
+
+Movies yes
+WriteMoviesEvery 1000
+
+ParallelTemperingProbability 0.01
+
+Framework 7
+FrameworkName  LTA_my
+UseChargesFromCIFFile   yes
+UnitCells 1 1 1
+HeliumVoidFraction 0.2
+ExternalTemperature 1882
+
+Movies yes
+WriteMoviesEvery 1000
+
+ParallelTemperingProbability 0.01
+
+Framework 8
+FrameworkName  LTA_my
+UseChargesFromCIFFile   yes
+UnitCells 1 1 1
+HeliumVoidFraction 0.2
+ExternalTemperature 2447
+
+
+ParallelTemperingProbability 0.01
+Movies yes
+WriteMoviesEvery 1000
+
+
+# Grids
+#NumberOfGrids 0
+#SpacingVDWGrid 0.1
+#SpacingCoulombGrid  0.1
+#UseTabularGrid yes
+            
+Component 0 MoleculeName                    K
+            MoleculeDefinition              K   
+            BlockPockets              yes
+            BlockPocketsFilename      LTA 
+            TranslationProbability          0.5
+            RandomTranslationProbability          0.5
+            ExtraFrameworkMolecule          yes
+            CreateNumberOfMolecules      0 0 0 0 0 0 0 0 0
+
+
+Component 1 MoleculeName                    Na
+            MoleculeDefinition              Na   
+            BlockPockets              yes
+            BlockPocketsFilename      LTA 
+            TranslationProbability          0.5
+            RandomTranslationProbability          0.5
+            ExtraFrameworkMolecule          yes
+            CreateNumberOfMolecules      43 43 43 43 43 43 43 43 43
