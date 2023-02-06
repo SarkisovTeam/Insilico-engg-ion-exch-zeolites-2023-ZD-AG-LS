@@ -13,7 +13,7 @@ You can find the publication here:
 
 Note:
 -----
-The scripts are provided as-is, and are not guaranteed to work. If you have any questions, please contact the corresponding author of the article.
+The scripts are provided as-is, and are not guaranteed to work without the required dependencies or with different structure from that used in our work. If you have any questions, please contact the corresponding author of the article.
 
 ##	Generate random Al distribution
 Requirement: Jupyter Notebook, Python
