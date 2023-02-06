@@ -31,7 +31,7 @@ Requirement: RASPA
 
 ##	Identify cation distribution
 
-Please refer to the [Cation distribution notebook](./cation_distribution.ipynb)
+Please refer to the [Cation distribution notebook](./cation_dist.ipynb)
 
 
 
